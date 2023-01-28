@@ -12,14 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Titulo": {
+    "titulo": {
       "type": "string",
       "required": true
     },
-    "Contenido": {
+    "contenido": {
       "type": "richtext"
     },
-    "Imagen": {
+    "imagen": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -30,9 +30,8 @@
         "audios"
       ]
     },
-    "Url": {
-      "type": "uid",
-      "targetField": "Titulo"
+    "url": {
+      "type": "uid"
     }
   }
 }
